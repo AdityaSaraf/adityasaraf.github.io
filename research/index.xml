@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researches | Aditya Saraf</title>
+    <link>https://adityasaraf.github.io/research/</link>
+      <atom:link href="https://adityasaraf.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Researches</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Researches</title>
+      <link>https://adityasaraf.github.io/research/</link>
+    </image>
+    
+    <item>
+      <title>Present Bias in Competitive Task Completion</title>
+      <link>https://adityasaraf.github.io/research/pb/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/pb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy for Correlated Data</title>
+      <link>https://adityasaraf.github.io/research/bdp/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/bdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Bayesianism: A New Theory of Statistical Evidence</title>
+      <link>https://adityasaraf.github.io/research/rb/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/rb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trial and Error for Hidden Graph Properties</title>
+      <link>https://adityasaraf.github.io/research/hidden_graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/hidden_graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Altruism in Kidney Exchanges</title>
+      <link>https://adityasaraf.github.io/research/altruism_kidney/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/altruism_kidney/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single Document Summarization</title>
+      <link>https://adityasaraf.github.io/research/nlp/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Strong Bridge Principle for Logical Normativity</title>
+      <link>https://adityasaraf.github.io/research/logical_norm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/logical_norm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Policy</title>
+      <link>https://adityasaraf.github.io/research/tpl/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/tpl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
