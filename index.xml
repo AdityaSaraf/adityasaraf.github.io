@@ -5,12 +5,36 @@
     <link>https://adityasaraf.github.io/</link>
       <atom:link href="https://adityasaraf.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Aditya Saraf</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Aditya Saraf</title>
       <link>https://adityasaraf.github.io/</link>
     </image>
+    
+    <item>
+      <title>Transaction Fee Mechanisms for Cryptocurrencies</title>
+      <link>https://adityasaraf.github.io/research/crypto/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chunking Tasks for Present-Biased Agents</title>
+      <link>https://adityasaraf.github.io/research/pb2/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/pb2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An &#34;Ethics-First&#34; Approach to Evidence</title>
+      <link>https://adityasaraf.github.io/research/dtd/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/dtd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Present Bias in Competitive Task Completion</title>
@@ -21,18 +45,18 @@
     </item>
     
     <item>
-      <title>Privacy for Correlated Data</title>
-      <link>https://adityasaraf.github.io/research/bdp/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/bdp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Robust Bayesianism: A New Theory of Statistical Evidence</title>
       <link>https://adityasaraf.github.io/research/rb/</link>
       <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasaraf.github.io/research/rb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy for Correlated Data</title>
+      <link>https://adityasaraf.github.io/research/bdp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasaraf.github.io/research/bdp/</guid>
       <description></description>
     </item>
     

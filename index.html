@@ -245,7 +245,7 @@
   <meta property="og:description" content="PhD student"><meta property="og:image" content="https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-06-27T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2022-09-01T00:00:00&#43;00:00">
   
 
   
@@ -635,12 +635,12 @@
     
     <h1>About</h1>
 
-    <p>Hello and welcome to my portfolio. I am currently a first year PhD student in Computer Science at Cornell University, where I am working with 
+    <p>Hello and welcome to my portfolio. I am currently a second year PhD student in Computer Science at Cornell University, where I am working with 
 <a href="https://www.cs.cornell.edu/home/halpern/" target="_blank" rel="noopener">Joe Halpern</a>. I recently completed my M.S. in Computer Science at the University of Washington under 
 <a href="https://homes.cs.washington.edu/~karlin/" target="_blank" rel="noopener">Anna Karlin</a>&rsquo;s supervision.</p>
-<p>My primary research interests lie in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master&rsquo;s thesis considered a model of how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I&rsquo;ve also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and coordination games on large social networks. In the past, I&rsquo;ve done research in Tech Policy/HCI and Natural Language Processing.</p>
+<p>My primary research interests lie in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master&rsquo;s thesis considered a model of how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I&rsquo;ve also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and coordination games on large social networks. Recently, I started work on incentive issues surrounding cryptocurrencies. In the past, I&rsquo;ve done research in Tech Policy/HCI and NLP.</p>
 <!-- I've recently worked on mechanisms for Bayesian differential privacy, a stronger version of the well-studied differential privacy that better protects correlated data. I have also investigated a unique property testing setting for graph properties, where the input graph was *hidden* by an oracle. Some graph properties are efficiently certifiable in this setting; we provided a partial classification. In the past, I've done research in Tech Policy/HCI and Natural Language Processing. -->
-<p>In addition to my CS interests, I&rsquo;m also interested in Epistemology and Philosophy of Statistics. I&rsquo;ve investigated to what extent rational agents are obligated to form beliefs according to logical laws. I&rsquo;m currently designing a new, <em>social</em> theory of statistical evidence that builds on likelihood-based methods, and is mathematically interesting because it&rsquo;s compatible with weak, qualitative requirements on rationality.</p>
+<p>In addition to my CS interests, I&rsquo;m also interested in epistemology and the philosophy of statistics. I&rsquo;m currently designing a new, <em>social</em> theory of statistical evidence, Robust Bayesianism (RB), that extends likelihood-based methodologies to broader settings. RB is mathematically interesting because it&rsquo;s compatible with weak, qualitative requirements on rationality. I&rsquo;m also working on connecting statistical definitions of evidence to more commonplace ethical definitions of evidence, with the goal of providing an &ldquo;ethics-first&rdquo; approach to evidence, and to epistemology more generally.</p>
 
 
     <div class="row">
@@ -652,7 +652,7 @@
           
           <li>EconCS</li>
           
-          <li>Complexity Theory</li>
+          <li>Blockchains/Cryptocurrency</li>
           
           <li>Epistemology/Philosophy of Statistics</li>
           
@@ -738,7 +738,7 @@
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
 
-    <h1>Research Experience</h1>
+    <h1>Projects</h1>
     
 
   </div>
@@ -825,11 +825,287 @@
 
 
 <h4 class="article-title mb-1 mt-1">
+    Transaction Fee Mechanisms for Cryptocurrencies
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Joe Halpern and Rafael Pass
+    
+</div>
+
+
+    <div class="article-style mb-2">Several major cryptocurrencies, including blockchain and ethereum, have transaction fee &ldquo;auctions&rdquo;, where users bid to have their transactions included by miners. One unique feature of these auctions is that the &ldquo;auctioneer&rdquo; is the miner, who is not a trusted party. Several recent papers have formalized these transaction fee mechanisms, and identified challenges in getting simultaneously user and miner incentive compatibility. We focus specifically on mechanisms that guarantee <em>miner</em> incentive compatibility, and show how these mechanisms affect the social welfare of transacting parties. In this way, our work can be viewed as identifying the &ldquo;price&rdquo; of user incentive compatible &ndash; how much does social welfare decrease when we require that our mechanism is truthful?</div>
+
+
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-tcs">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    Chunking Tasks for Present-Biased Agents
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Joe Halpern
+    
+</div>
+
+
+    <div class="article-style mb-2">A well known technique that instructors use to combat procrastination is to break up a large project into more manageable chunks. But how should this be done best? We formalize chunking within an existing model of present bias for task completion, derive algorithms for optimal chunking, and prove that a relatively small amount of chunking can ensure that biased agents behave optimally.</div>
+
+
+
+  <div id="accordion_pb2" class="myaccordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 mt-0">
+          <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#pb2" aria-expanded="false" aria-controls="pb2">
+            Details
+            <span class="fa-stack fa-sm">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="pb2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_pb2">
+        <div class="article-style mx-3 my-2">
+          <p>We build on a model originally proposed by Jon Kleinberg and Sigal Oren <a href="https://arxiv.org/abs/1405.1254">[KO14]</a>. In their model, tasks are represented by directed, acyclic graphs with designated start node $s$ and end node $t$. The agent traverses a shortest $s\to t$ path with one twist: when the evaluating the cost of a path, they multiply the cost of the first edge by their bias parameter, $b$. They traverse the first step of this biased path, and then <em>recompute</em> the best path. Existing results show that these biased agents can take <em>exponentially</em> more costly paths through a given graph.</p>
+<p>In our model, the task designer can chunk edges into smaller pieces. We show that, for edges along the shortest path, the optimal way to chunk an edge is to make initial pieces easier and later pieces progressively harder. For edges not along the shortest path, optimal chunking is significantly more complex, but we provide an efficient algorithm. We also show that with a linear number of chunks on each edge, the biased agent&rsquo;s cost can be exponentially lowered to within a constant factor of the true cheapest path. Finally, we show how to optimally chunk task graphs for multiple types of agents simultaneously.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-phil">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    An &ldquo;Ethics-First&rdquo; Approach to Evidence
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Conor Mayo-Wilson
+    
+      <span class="middot-divider"></span>
+      In submission at <em>Philosophy of Science</em>
+    
+</div>
+
+
+    <div class="article-style mb-2">There are many ethical norms surrounding evidence. Evidence determines when researchers should halt drug trials, and what pharmaceutical companies are obliged to disclose to the public. Prosecutors and witnesses are obliged to disclose certain types of evidence in court trials, and jury members are obliged to be responsive to evidence when rendering their verdicts. But scientific evidence is often defined in purely statistical terms. We bridge this gap, by <em>deriving</em> theories of statistical evidence from ethical premises. Specifically, we argue that several theories of statistical evidence, including likelihoodism, Bayesian confirmation theory, and Robust Bayesianism (see below), answer the ethical question, &ldquo;When is a scientist obliged to disclose experimental data or analysis?&rdquo;
+In the future, we hope to extend our &ldquo;ethics-first&rdquo; approach to other epistemological concepts, such as knowledge or confirmation.</div>
+
+
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-tcs">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
     Present Bias in Competitive Task Completion
 </h4>
 
 <div class="card-subtitle my-0 article-metadata">
     with Anna Karlin and Jamie Morgenstern
+    
+      <span class="middot-divider"></span>
+      Published in <em>WINE'20</em>
     
 </div>
 
@@ -944,6 +1220,148 @@
           
 
 
+<div class="card-simple isotope-item js-id-phil">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    Robust Bayesianism: A New Theory of Statistical Evidence
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Conor Mayo-Wilson
+    
+      <span class="middot-divider"></span>
+      In submission at <em>Statistical Science</em>, foundations paper forthcoming in <em>Philosopher&rsquo;s Imprint</em>
+    
+</div>
+
+
+    <div class="article-style mb-2">We investigate a new theory of statistical evidence that analyzes likelihood-based methods through a Bayesian lens. Our theory better clarifies the <em>objectivity</em> of evidence, and takes the view that evidence primarily serves as a tool to convince a community of the truth of some hypothesis. Our theory is technically interesting because it&rsquo;s compatible with weaker forms of rationality. Specifically, we work with a mathematical framework of qualitative, conditional probability, rather than quantitative degrees of belief.</div>
+
+
+
+  <div id="accordion_rb" class="myaccordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 mt-0">
+          <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#rb" aria-expanded="false" aria-controls="rb">
+            Details
+            <span class="fa-stack fa-sm">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="rb" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_rb">
+        <div class="article-style mx-3 my-2">
+          We start from the perspective that evidence is inherently <em>social</em> &ndash; its primary purpose is persuasion. We thus formulate principles that essentially state that $E$ is good evidence for hypothesis $H_1$ over $H_2$ if it raises one&rsquo;s posterior in $H_1$ by more than one&rsquo;s posterior in $H_2$, regardless of one&rsquo;s prior (it thus convinces all Bayesian agents). Our theory is closely related to <a href="https://en.wikipedia.org/wiki/Likelihood_principle">likelihoodism</a>. We show that likelihoodist principles are equivalent to our Robust Bayesian principles in the standard setting, where agents are assumed to have probabilistic beliefs. However, our theory generalizes to a setting of qualitative belief functions, and in this broader setting only <em>some</em> likelihoodist principles have analogs, suggesting that those principles which don&rsquo;t generalize may simply be modeling artifacts.
+In a related line of work, we argue that <em>social</em> norms of rationality better justify some aspects of Bayesianism, especially in scientific contexts. That paper is also listed below, as the &lsquo;Foundations Paper&rsquo;
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2009.03879" target="_blank" rel="noopener">
+    
+    Technical Paper (Arxiv)
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/foundations.pdf" >
+    
+    Foundations Paper
+  </a>
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
 <div class="card-simple isotope-item js-id-tcs">
   
 
@@ -965,6 +1383,9 @@
 
 <div class="card-subtitle my-0 article-metadata">
     with Grant Schoenebeck, Jie Gao, and Fang-Yi Yu
+    
+      <span class="middot-divider"></span>
+      Published in <em>AAMAS'22</em>
     
 </div>
 
@@ -1031,176 +1452,6 @@
 
 
 
-
-
-</div>
-
-
-<div class="ml-3">
-  
-  
-</div>
-
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-<div class="card-simple isotope-item js-id-phil">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h4 class="article-title mb-1 mt-1">
-    Robust Bayesianism: A New Theory of Statistical Evidence
-</h4>
-
-<div class="card-subtitle my-0 article-metadata">
-    with Conor Mayo-Wilson
-    
-      <span class="middot-divider"></span>
-      Presented at <em>FEW 2019</em>
-    
-</div>
-
-
-    <div class="article-style mb-2">We investigate a new theory of statistical evidence that analyzes likelihood-based methods through a Bayesian lens. Our theory better clarifies the <em>objectivity</em> of evidence, and takes the view that evidence primarily serves as a tool to convince a community of the truth of some hypothesis. Our theory is technically interesting because it&rsquo;s compatible with weaker forms of rationality. Specifically, we work with a mathematical framework of qualitative, conditional probability, rather than quantitative degrees of belief.</div>
-
-
-
-  <div id="accordion_rb" class="myaccordion">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h2 class="mb-0 mt-0">
-          <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#rb" aria-expanded="false" aria-controls="rb">
-            Details
-            <span class="fa-stack fa-sm">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
-            </span>
-          </button>
-        </h2>
-      </div>
-      <div id="rb" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_rb">
-        <div class="article-style mx-3 my-2">
-          We start from the perspective that evidence is inherently <em>social</em> &ndash; its primary purpose is persuasion. We thus formulate principles that essentially state that $E$ is good evidence for hypothesis $H_1$ over $H_2$ if it raises one&rsquo;s posterior in $H_1$ by more than one&rsquo;s posterior in $H_2$, regardless of one&rsquo;s prior (it&rsquo;s thus convincing for all Bayesian agents). We then show that our theory is a natural generalization of <a href="https://en.wikipedia.org/wiki/Likelihood_principle">likelihoodism</a>.
-From a mathematical perspective, our approach has several advantages. First, the Bayesian analysis allows us to handle several technical issues that plague likelihoodism, including handling composite hypotheses and experiments with nuisance parameters. Second, we work in a system of qualitative, conditional probability, which assumes agents have qualitative orderings over events (ordered by probability), and takes conditional probability to be primitive. These orderings are subject to many axioms (e.g. an analog of finite additivity). We prove analogs of several basic quantitative principles, such as Bayes' theorem and the law of total probability, and use these to prove that our theory naturally generalizes likelihoodism to settings of qualitative rationality.
-You can find the original paper presented at FEW below, as well as a revised paper that focuses mainly on the technical elements of our work. In a related line of work, we argue that <em>social</em> norms of rationality better justify some aspects of Bayesianism, especially in scientific contexts. That paper is also listed below, as the &lsquo;Foundations Paper&rsquo;
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-<div class="btn-links">
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/quol_few19_slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/quol_few19.pdf" >
-    
-    Original Paper
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2009.03879" target="_blank" rel="noopener">
-    
-    Technical Paper (Arxiv)
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/foundations.pdf" >
-    
-    Foundations Paper
-  </a>
 
 
 </div>
@@ -1630,7 +1881,7 @@ You can find the original paper presented at FEW below, as well as a revised pap
 </div>
 
 
-    <div class="article-style mb-2">I spent a year at UW&rsquo;s <a href="https://techpolicylab.uw.edu/">Tech Policy Lab</a>, where I synthesized security/privacy research around new and upcoming technologies for legal and policy audiences. The areas I focused on were autonomous vehicles, IoT devices, and cell-site simulators (devices of dubious legality that police use to monitor local cell traffic). We published a paper on the attitudes of children and parents towards internet connected toys.</div>
+    <div class="article-style mb-2">I spent a year at UW&rsquo;s <a href="https://techpolicylab.uw.edu/">Tech Policy Lab</a>, where I synthesized security/privacy research around new and upcoming technologies for legal and policy audiences. The areas I focused on were autonomous vehicles, IoT devices, and cell-site simulators (devices of dubious legality that law enforcement officers use to monitor local cell traffic). We published a paper on the attitudes of children and parents towards internet connected toys.</div>
 
 
 
@@ -1730,7 +1981,7 @@ You can find the original paper presented at FEW below, as well as a revised pap
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Teaching Assistant</h1>
+    <h1>Teaching</h1>
     
   </div>
   <div class="col-12 col-lg-8">
@@ -1743,6 +1994,21 @@ You can find the original paper presented at FEW below, as well as a revised pap
             Aug 2021
             
             – Dec 2021
+            
+            </span>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">CS 4830: Introduction to Cryptography</h4><div class="card-subtitle my-0 article-metadata">Cornell<span class="middot-divider"></span>Instructor: Noah Stephens-Davidowitz<span style="float:right;">
+            Jan 2021
+            
+            – May 2021
             
             </span>
           </div>
