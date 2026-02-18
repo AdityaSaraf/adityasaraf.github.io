@@ -1,136 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Aditya Saraf</title>
-    <link>https://adityasaraf.github.io/</link>
-      <atom:link href="https://adityasaraf.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Aditya Saraf</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Aditya Saraf</title>
-      <link>https://adityasaraf.github.io/</link>
-    </image>
-    
-    <item>
-      <title>Throughput vs. Censorship with Multiple (Rational) Concurrent Proposers</title>
-      <link>https://adityasaraf.github.io/research/mcp_censorship/</link>
-      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/mcp_censorship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Curbing Spam Transactions with Priority Fee Ordering</title>
-      <link>https://adityasaraf.github.io/research/spam/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/spam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms</title>
-      <link>https://adityasaraf.github.io/research/coinalg/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/coinalg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timing Games in Responsive Consensus Protocols</title>
-      <link>https://adityasaraf.github.io/research/timing_games/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/timing_games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pricing Crypto Lending Pools with Options</title>
-      <link>https://adityasaraf.github.io/research/lending_pools/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/lending_pools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chunking Tasks for Present-Biased Agents</title>
-      <link>https://adityasaraf.github.io/research/pb2/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/pb2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An &#34;Ethics-First&#34; Approach to Evidence</title>
-      <link>https://adityasaraf.github.io/research/dtd/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/dtd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Present Bias in Competitive Task Completion</title>
-      <link>https://adityasaraf.github.io/research/pb/</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/pb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robust Bayesianism: A New Theory of Statistical Evidence</title>
-      <link>https://adityasaraf.github.io/research/rb/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/rb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy for Correlated Data</title>
-      <link>https://adityasaraf.github.io/research/bdp/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/bdp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trial and Error for Hidden Graph Properties</title>
-      <link>https://adityasaraf.github.io/research/hidden_graph/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/hidden_graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Strong Bridge Principle for Logical Normativity</title>
-      <link>https://adityasaraf.github.io/research/logical_norm/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/logical_norm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech Policy</title>
-      <link>https://adityasaraf.github.io/research/tpl/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/research/tpl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adityasaraf.github.io/old/altruism_kidney/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/old/altruism_kidney/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adityasaraf.github.io/old/nlp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://adityasaraf.github.io/old/nlp/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aditya Saraf</title><link>https://adityasaraf.github.io/</link><atom:link href="https://adityasaraf.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Aditya Saraf</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://adityasaraf.github.io/images/icon_hu_e747e089a9e68c83.png</url><title>Aditya Saraf</title><link>https://adityasaraf.github.io/</link></image><item><title>Throughput vs. Censorship with Multiple (Rational) Concurrent Proposers</title><link>https://adityasaraf.github.io/research/mcp_censorship/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/mcp_censorship/</guid><description/></item><item><title>Curbing Spam Transactions with Priority Fee Ordering</title><link>https://adityasaraf.github.io/research/spam/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/spam/</guid><description/></item><item><title>The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms</title><link>https://adityasaraf.github.io/research/coinalg/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/coinalg/</guid><description/></item><item><title>Timing Games in Responsive Consensus Protocols</title><link>https://adityasaraf.github.io/research/timing_games/</link><pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/timing_games/</guid><description/></item><item><title>Pricing Crypto Lending Pools with Options</title><link>https://adityasaraf.github.io/research/lending_pools/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/lending_pools/</guid><description/></item><item><title>Chunking Tasks for Present-Biased Agents</title><link>https://adityasaraf.github.io/research/pb2/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/pb2/</guid><description/></item><item><title>An "Ethics-First" Approach to Evidence</title><link>https://adityasaraf.github.io/research/dtd/</link><pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/dtd/</guid><description/></item><item><title>Present Bias in Competitive Task Completion</title><link>https://adityasaraf.github.io/research/pb/</link><pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/pb/</guid><description/></item><item><title>Robust Bayesianism: A New Theory of Statistical Evidence</title><link>https://adityasaraf.github.io/research/rb/</link><pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/rb/</guid><description/></item><item><title>Privacy for Correlated Data</title><link>https://adityasaraf.github.io/research/bdp/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/bdp/</guid><description/></item><item><title>Trial and Error for Hidden Graph Properties</title><link>https://adityasaraf.github.io/research/hidden_graph/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/hidden_graph/</guid><description/></item><item><title>A Strong Bridge Principle for Logical Normativity</title><link>https://adityasaraf.github.io/research/logical_norm/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/logical_norm/</guid><description/></item><item><title>Tech Policy</title><link>https://adityasaraf.github.io/research/tpl/</link><pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/research/tpl/</guid><description/></item><item><title/><link>https://adityasaraf.github.io/old/altruism_kidney/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/old/altruism_kidney/</guid><description>&lt;!-- ---
+title: Modelling Altruism in Kidney Exchanges
+id: kidney
+tagline: >
+We conducted preliminary (theoretical) research on the effects of altruistic donors in kidney exchanges, which were modelled as dynamic matching markets. This work is especially relevant in light of schemes to encourage altruism, such as the National Kidney Registry's [voucher program](https://www.kidneyregistry.org/info/voucher-program).
+coauthors: "with John Dickerson"
+tags:
+- tcs
+date: "2018-09-27T00:00:00Z"
+--- --></description></item><item><title/><link>https://adityasaraf.github.io/old/nlp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/old/nlp/</guid><description>&lt;!-- ---
+title: Single Document Summarization
+id: nlp
+tagline: >
+For my senior capstone, we compared neural and combinatorial approaches to *extractive* single document summarization, where sentences from the document are concatenated into a summary. Our neural approaches were constructed from recent literature, and our combinatorial approaches reduced to MaxSAT or ILP. We also built a web-based visualizer to compare the summaries generated by different models.
+tags:
+- other
+date: "2018-06-01T00:00:00Z"
+links:
+# - name: Custom Link
+# url: http://example.org
+url_pdf: /files/sds_paper.pdf
+# url_code: '#'
+# url_dataset: '#'
+url_poster: '/files/sds_poster.pdf'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
+--- --></description></item></channel></rss>

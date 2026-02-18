@@ -1,16 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Aditya Saraf</title>
-    <link>https://adityasaraf.github.io/author/aditya-saraf/</link>
-      <atom:link href="https://adityasaraf.github.io/author/aditya-saraf/index.xml" rel="self" type="application/rss+xml" />
-    <description>Aditya Saraf</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
-    <image>
-      <url>https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Aditya Saraf</title>
-      <link>https://adityasaraf.github.io/author/aditya-saraf/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aditya Saraf</title><link>https://adityasaraf.github.io/author/aditya-saraf/</link><atom:link href="https://adityasaraf.github.io/author/aditya-saraf/index.xml" rel="self" type="application/rss+xml"/><description>Aditya Saraf</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><image><url>https://adityasaraf.github.io/images/icon_hu_e747e089a9e68c83.png</url><title>Aditya Saraf</title><link>https://adityasaraf.github.io/author/aditya-saraf/</link></image><item><title>Aditya Saraf</title><link>https://adityasaraf.github.io/author/aditya-saraf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adityasaraf.github.io/author/aditya-saraf/</guid><description>&lt;p>Hello and welcome to my portfolio. I am currently a fifth year PhD student in Computer Science at Cornell Tech, where I am advised by
+&lt;a href="https://www.cs.cornell.edu/~rafael/" target="_blank" rel="noopener">Rafael Pass&lt;/a> and
+&lt;a href="https://www.cs.cornell.edu/home/halpern/" target="_blank" rel="noopener">Joe Halpern&lt;/a>. Previously, I completed my M.S. in Computer Science at the University of Washington under
+&lt;a href="https://homes.cs.washington.edu/~karlin/" target="_blank" rel="noopener">Anna Karlin&lt;/a>&amp;rsquo;s supervision.&lt;/p>
+&lt;p>My primary research interest is solving incentive problems in blockchain systems. For example, I&amp;rsquo;ve worked on pricing lending pools fairly, and analyzing transaction fee mechanisms in terms of their social welfare. I&amp;rsquo;m comfortable both with proof-heavy approaches, as well as using simulations and empirical data to analyze mathematical models. Currently, much of my work blends incentive analysis with consensus, including my projects on timing games and multiple concurrent proposers (see below).&lt;/p>
+&lt;p>More broadly, I&amp;rsquo;m interested in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master&amp;rsquo;s thesis considered a model of how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I&amp;rsquo;ve also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and coordination games on large social networks. In the past, I&amp;rsquo;ve worked on tech policy.&lt;/p>
+&lt;!-- I've recently worked on mechanisms for Bayesian differential privacy, a stronger version of the well-studied differential privacy that better protects correlated data. I have also investigated a unique property testing setting for graph properties, where the input graph was *hidden* by an oracle. Some graph properties are efficiently certifiable in this setting; we provided a partial classification. In the past, I've done research in Tech Policy/HCI and Natural Language Processing. -->
+&lt;p>In addition to my CS interests, I&amp;rsquo;m also interested in epistemology and the philosophy of statistics. My main goal is to provide an &amp;ldquo;ethics-first&amp;rdquo; approach to epistemology, by grounding concepts like knowledge, evidence, or explanation, in terms of obligations. As an example of this, we defined &amp;ldquo;evidence&amp;rdquo; in terms of what you have a duty to disclose. We showed that this definition is equivalent to several existing theories of statistical evidence, even in settings with only weak, qualitative requirements on rationality. This suggests that existing theories of statistical evidence may have foundational links to ethics.&lt;/p></description></item></channel></rss>
