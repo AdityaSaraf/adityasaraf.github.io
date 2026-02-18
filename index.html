@@ -245,7 +245,7 @@
   <meta property="og:description" content="PhD student"><meta property="og:image" content="https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://adityasaraf.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-09-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2026-02-15T00:00:00&#43;00:00">
   
 
   
@@ -635,13 +635,14 @@
     
     <h1>About</h1>
 
-    <p>Hello and welcome to my portfolio. I am currently a fourth year PhD student in Computer Science at Cornell Tech, where I am working with 
+    <p>Hello and welcome to my portfolio. I am currently a fifth year PhD student in Computer Science at Cornell Tech, where I am advised by 
 <a href="https://www.cs.cornell.edu/~rafael/" target="_blank" rel="noopener">Rafael Pass</a> and 
 <a href="https://www.cs.cornell.edu/home/halpern/" target="_blank" rel="noopener">Joe Halpern</a>. Previously, I completed my M.S. in Computer Science at the University of Washington under 
 <a href="https://homes.cs.washington.edu/~karlin/" target="_blank" rel="noopener">Anna Karlin</a>&rsquo;s supervision.</p>
-<p>My primary research interest is exploring incentive problems in blockchains. I&rsquo;ve recently worked on pricing problems for lending pools, and set the interest rates by relating them to financial options. More broadly, I&rsquo;m interested in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master&rsquo;s thesis considered a model of how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I&rsquo;ve also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and coordination games on large social networks. In the past, I&rsquo;ve done research in Tech Policy/HCI and NLP.</p>
+<p>My primary research interest is solving incentive problems in blockchain systems. For example, I&rsquo;ve worked on pricing lending pools fairly, and analyzing transaction fee mechanisms in terms of their social welfare. I&rsquo;m comfortable both with proof-heavy approaches, as well as using simulations and empirical data to analyze mathematical models. Currently, much of my work blends incentive analysis with consensus, including my projects on timing games and multiple concurrent proposers (see below).</p>
+<p>More broadly, I&rsquo;m interested in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master&rsquo;s thesis considered a model of how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I&rsquo;ve also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and coordination games on large social networks. In the past, I&rsquo;ve worked on tech policy.</p>
 <!-- I've recently worked on mechanisms for Bayesian differential privacy, a stronger version of the well-studied differential privacy that better protects correlated data. I have also investigated a unique property testing setting for graph properties, where the input graph was *hidden* by an oracle. Some graph properties are efficiently certifiable in this setting; we provided a partial classification. In the past, I've done research in Tech Policy/HCI and Natural Language Processing. -->
-<p>In addition to my CS interests, I&rsquo;m also interested in epistemology and the philosophy of statistics. I&rsquo;m currently designing a new, <em>social</em> theory of statistical evidence, Robust Bayesianism (RB), that extends likelihood-based methodologies to broader settings. RB is mathematically interesting because it&rsquo;s compatible with weak, qualitative requirements on rationality. I&rsquo;m also working on connecting statistical definitions of evidence to more commonplace ethical definitions of evidence, with the goal of providing an &ldquo;ethics-first&rdquo; approach to evidence, and to epistemology more generally.</p>
+<p>In addition to my CS interests, I&rsquo;m also interested in epistemology and the philosophy of statistics. My main goal is to provide an &ldquo;ethics-first&rdquo; approach to epistemology, by grounding concepts like knowledge, evidence, or explanation, in terms of obligations. As an example of this, we defined &ldquo;evidence&rdquo; in terms of what you have a duty to disclose. We showed that this definition is equivalent to several existing theories of statistical evidence, even in settings with only weak, qualitative requirements on rationality. This suggests that existing theories of statistical evidence may have foundational links to ethics.</p>
 
 
     <div class="row">
@@ -653,7 +654,7 @@
           
           <li>EconCS</li>
           
-          <li>Blockchains/Cryptocurrency</li>
+          <li>Blockchains</li>
           
           <li>Epistemology/Philosophy of Statistics</li>
           
@@ -779,7 +780,12 @@
                 
                 
                 
-                <a href="#" data-filter=".js-id-tcs" class="btn btn-primary btn-lg">Theoretical CS</a>
+                <a href="#" data-filter=".js-id-blockchain" class="btn btn-primary btn-lg">Blockchain</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-tcs" class="btn btn-primary btn-lg">CS Theory</a>
               
                 
                 
@@ -810,7 +816,416 @@
           
 
 
-<div class="card-simple isotope-item js-id-tcs">
+<div class="card-simple isotope-item js-id-blockchain">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    Throughput vs. Censorship with Multiple (Rational) Concurrent Proposers
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Ioannis Kaklamanis, Fatima Elsheimy, Sarisht Wadhwa, and Fan Zhang
+    
+</div>
+
+
+    <div class="article-style mb-2">Standard blockchain consensus protocols have a single proposer for each round. In their round, this proposer has a monopoly on block production; they alone can decide which transactions are included. Thus, this &ldquo;monopolist&rdquo; can easily censor transactions, either for their own preferences, or because they were bribed. For this reason, many blockchains are considering protocols with multiple concurrent proposers (MCP). This allows many proposers to build a single block, by having each construct a sub-block separately and then taking the union to form the main block.
+We formalize a notion of <em>economic censorship resistance</em> (eCR), and show that MCP can significantly increase the eCR as compared to a single proposer. However, with MCP, proposers can submit the same transaction, which decreases the overall throughput. We design an algorithm to compute an equilibrium for the block-building and censorship process with MCP, and use it to evaluate the throughput vs eCR tradeoffs, given a variety of different transaction fee mechanisms.</div>
+
+
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-blockchain">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    Curbing Spam Transactions with Priority Fee Ordering
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Wenhao Wang, Fan Zhang, Kushal Babel, and Lioba Heimbach
+    
+</div>
+
+
+    <div class="article-style mb-2">Many Ethereum L2s, such as Base or Solana, have a high volume of &ldquo;speculative backrunning&rdquo; transactions, that search for and exploit arbitrage dynamically (on-chain). These transactions are sometimes considered <em>spam</em>, as vast majority fail to find any arbitrage, but still waste a lot of gas on searching. And <a href="https://writings.flashbots.net/mev-and-the-limits-of-scaling">some</a> believe that this represents a <em>barrier to scaling</em>; as block capacity grows, more of it will go to spammers, leaving less for other users.
+We develop a formal model that computes the expected spam volume given other parameters, such as user demand and block capacity. We find evidence to that spam limits scaling, by lowering user welfare by a constant fraction, even as demand and capacity increase. We then show that <em>priority fee ordering</em>, as opposed to first-come first-serve sequencing, could dramatically lower the expected spam volume, preserving high user welfare.</div>
+
+
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-blockchain">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Andrés Fábrega, James Austgen, Samuel Breckenridge, Jay Yu, Amy Zhao, Sarah Allen, and Ari Juels
+    
+</div>
+
+
+    <div class="article-style mb-2">We investigate trading bots or other collective investment strategies, and show that such systems face a fundamental dilemna: they can either guarantee economic fairness, by ensuring that the system is transparent, or profitability, but not both.</div>
+
+
+
+  <div id="accordion_coinalg" class="myaccordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 mt-0">
+          <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#coinalg" aria-expanded="false" aria-controls="coinalg">
+            Details
+            <span class="fa-stack fa-sm">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="coinalg" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_coinalg">
+        <div class="article-style mx-3 my-2">
+          <p>Collective Investment Algorithms (CoinAlgs) are increasingly popular systems that deploy shared trading strategies for investor communities. Their goal is to democratize sophisticated &ndash; often AI-based &ndash; investing tools. We identify and demonstrate a fundamental profitability-fairness tradeoff in CoinAlgs that we call the CoinAlg Bind: CoinAlgs cannot ensure economic fairness without losing profit to arbitrage. We present a formal model of CoinAlgs, with definitions of privacy (incomplete algorithm disclosure) and economic fairness (value extraction by an adversarial insider).</p>
+<p>We prove two complementary results that together demonstrate the CoinAlg Bind. First, privacy in a CoinAlg is a precondition for insider attacks on economic fairness. Conversely, in a game-theoretic model, lack of privacy, i.e., transparency, enables arbitrageurs to erode the profitability of a CoinAlg. Using data from Uniswap, a decentralized exchange, we empirically study both sides of the CoinAlg Bind. We quantify the impact of arbitrage against transparent CoinAlgs. We show the risks posed by a private CoinAlg: even low-bandwidth covert-channel information leakage enables unfair value extraction.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2601.00523" target="_blank" rel="noopener">
+    
+    Arxiv
+  </a>
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-blockchain">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="article-title mb-1 mt-1">
+    Timing Games in Responsive Consensus Protocols
+</h4>
+
+<div class="card-subtitle my-0 article-metadata">
+    with Kaya Alpturer, Kushal Babel
+    
+</div>
+
+
+    <div class="article-style mb-2">Timing games are when block proposers intentionally delay their proposals to extract more MEV. While causing some issues on ETH, timing games are much worse with responsive consensus protocols, potentially defeating responsiveness entirely. We introduce a dynamic block reward, with higher rewards going to validators with shorter round durations; these durations are measured by votes from the other validators. We show that proposing early is a Nash equilibrium in this mechanism, and prove some coalition-resistant guarantees. Much of the coalition analysis hinges on the fact that validators want a higher rate of reward, so others delaying hurts them. Thus, our work shows a surprising result: rather than responsiveness being an unattainable property due to timing games, responsiveness itself can promote faster block proposals.</div>
+
+
+
+  <div id="accordion_timing_games" class="myaccordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 mt-0">
+          <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#timing_games" aria-expanded="false" aria-controls="timing_games">
+            Details
+            <span class="fa-stack fa-sm">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="timing_games" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_timing_games">
+        <div class="article-style mx-3 my-2">
+          <p>Block proposers can extract more MEV by proposing later within their window, as more transactions appear and markets diverge. This gives rise to <em>timing games</em>, where block proposers try to wait as long as possible before proposing. On Ethereum, this results in a small number of missed blocks. But in a <em>responsive</em> protocol, the round durations are dynamic, with the new round beginning as soon as quorum is achieved on the current block. Timing games are much more problematic here, causing everyone to wait as long as possible to propose, thus defeating responsiveness.</p>
+<p>We develop a model of timing games that reveals find a prisoner&rsquo;s dilemma structure. Cooperation (proposing promptly) is in the validators' best interest, as the overall system runs faster, increasing their rate of reward. But individual incentives encourage validators to delay proposals selfishly. This motivates our voting approach, as that allows validators to coordinate to reach the better equilibrium.</p>
+<p>We also analyze latency fairness. Ideally, everyone&rsquo;s average rewards should be directly proportional to their stake. In reality, having lower latency to the rest of the network means you can potentially wait longer, or include more transactions in the same time period. This problem exists even with static block rewards, but does get worse for our dynamic block rewards. However, our analysis of real-world data suggests that the fairness degradation is very small.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="btn-links">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2510.25144" target="_blank" rel="noopener">
+    
+    Arxiv
+  </a>
+
+
+</div>
+
+
+<div class="ml-3">
+  
+  
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="card-simple isotope-item js-id-blockchain">
   
 
 
@@ -1656,184 +2071,6 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
           
 
 
-<div class="card-simple isotope-item js-id-tcs">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h4 class="article-title mb-1 mt-1">
-    Modelling Altruism in Kidney Exchanges
-</h4>
-
-<div class="card-subtitle my-0 article-metadata">
-    with John Dickerson
-    
-</div>
-
-
-    <div class="article-style mb-2">We conducted preliminary (theoretical) research on the effects of altruistic donors in kidney exchanges, which were modelled as dynamic matching markets. This work is especially relevant in light of schemes to encourage altruism, such as the National Kidney Registry&rsquo;s <a href="https://www.kidneyregistry.org/info/voucher-program">voucher program</a>.</div>
-
-
-
-
-<div class="btn-links">
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="ml-3">
-  
-  
-</div>
-
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-<div class="card-simple isotope-item js-id-other">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h4 class="article-title mb-1 mt-1">
-    Single Document Summarization
-</h4>
-
-<div class="card-subtitle my-0 article-metadata">
-    
-    
-</div>
-
-
-    <div class="article-style mb-2">For my senior capstone, we compared neural and combinatorial approaches to <em>extractive</em> single document summarization, where sentences from the document are concatenated into a summary. Our neural approaches were constructed from recent literature, and our combinatorial approaches reduced to MaxSAT or ILP. We also built a web-based visualizer to compare the summaries generated by different models.</div>
-
-
-
-
-<div class="btn-links">
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/sds_paper.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/sds_poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="ml-3">
-  
-  
-</div>
-
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
 <div class="card-simple isotope-item js-id-phil">
   
 
@@ -2059,10 +2296,27 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
     
     
       <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">High School Research Mentorship</h4><div class="card-subtitle my-0 article-metadata">College Impact $\cdot$ Polygence $\cdot$ Lumiere<span class="middot-divider"></span><span style="float:right;">
+            Jun 2022
+            
+            — current
+            
+            </span>
+          </div>
+
+          
+            <div class="card-text">I’ve done 1-on-1 research mentoring for over 30 high school students, on a wide range of topics, including historical economics, machine learning, philosophy, and more. Several of my students have published papers, and won science fairs.</div>
+          
+
+          
+        </div>
+      </div>
+    
+      <div class="card experience course">
         <div class="card-body"><h4 class="card-title exp-title text-muted my-0">CS 4830: Introduction to Cryptography</h4><div class="card-subtitle my-0 article-metadata">Cornell<span class="middot-divider"></span>Instructor: Noah Stephens-Davidowitz<span style="float:right;">
             Jan 2022
             
-            – May 2022
+            — May 2022
             
             </span>
           </div>
@@ -2077,7 +2331,7 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
         <div class="card-body"><h4 class="card-title exp-title text-muted my-0">CS 4820: Introduction to Analysis of Algorithms</h4><div class="card-subtitle my-0 article-metadata">Cornell<span class="middot-divider"></span>Instructor: Anke van Zuylen<span style="float:right;">
             Aug 2021
             
-            – Dec 2021
+            — Dec 2021
             
             </span>
           </div>
@@ -2092,7 +2346,7 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
         <div class="card-body"><a href="https://courses.cs.washington.edu/courses/cse490z/20sp/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">CSEP 590B/CSE 490Z: Incentives in Computer Science</h4></a><div class="card-subtitle my-0 article-metadata">UW<span class="middot-divider"></span>Instructors: Anna Karlin<span style="float:right;">
             Jan 2020
             
-            – Jun 2020
+            — Jun 2020
             
             </span>
           </div>
@@ -2107,7 +2361,7 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
         <div class="card-body"><a href="https://courses.cs.washington.edu/courses/cse490c/19au/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">CSE 490C: Cryptography</h4></a><div class="card-subtitle my-0 article-metadata">UW<span class="middot-divider"></span>Instructor: Huijia (Rachel) Lin<span style="float:right;">
             Sep 2019
             
-            – Dec 2019
+            — Dec 2019
             
             </span>
           </div>
@@ -2122,7 +2376,7 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
         <div class="card-body"><a href="https://courses.cs.washington.edu/courses/cse311/18au/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">CSE 311: Foundations of Computing I</h4></a><div class="card-subtitle my-0 article-metadata">UW<span class="middot-divider"></span>Instructors: Kevin Zatloukal, Emina Tourlak<span style="float:right;">
             Sep 2018
             
-            – Dec 2018
+            — Dec 2018
             
             </span>
           </div>
@@ -2137,7 +2391,7 @@ In a related line of work, we argue that <em>social</em> norms of rationality be
         <div class="card-body"><a href="https://courses.cs.washington.edu/courses/cse421/19sp/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">CSE 421: Introduction to Algorithms</h4></a><div class="card-subtitle my-0 article-metadata">UW<span class="middot-divider"></span>Instructors: various<span style="float:right;">
             Mar 2018
             
-            – Jun 2019
+            — Jun 2019
             
             </span>
           </div>
